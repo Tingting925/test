@@ -1,0 +1,33 @@
+telnet
+debug
+D:\apache-tomcat-solar
+TOMCAT_HOME
+
+pinyougou-server 虚列机账号与密码：root ,itcast
+
+
+阿里云账号： codemanqz
+
+
+http://note.youdao.com/noteshare?id=51a1689ed3d7a0a2d31fa8dfe96d61c6&sub=A137C5FC0B1E44F7B8DFA36CF142FFD7
+
+答：序列化就是对实例对象的状态(State 对象属性而不包括对象方法)进行通用编码（如格式化的字节码）并保存，以保证对象的完整性和可传递性。
+
+简而言之：序列化，就是为了在不同时间或不同平台的JVM之间共享实例对象
+
+最后提点注意：
+1、在序列化对象时，不仅会序列化当前对象本身，还会对该对象引用的其它对象也进行序列化，如此引用传递序列化。如果一个对象包含的成员变量是容器类等并深层引用，那么序列化过程开销也较大。
+
+
+2、当字段被声明为 transient 后，默认序列化机制就会忽略该字段。（还有方法就是自定义writeObject方法，见下代码示例）
+
+
+3、在单例类中添加一个readResolve()方法（直接返回单例对象），以保证在序列化过程仍保持单例特性。
+
+
+ip addr
+
+
+计算机全名：LAPTOP-T4Q1V906
+
+C:\program files\erl9.3\
